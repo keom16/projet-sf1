@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <title>Blog Phare</title>
+</head>
+
+<body>
+
+<header>
+    <a href="{{ path('article_list') }}"><div class="logo">
+            <img src="{{ asset('img/phare.jpg') }}" alt="" class="fluid">
+        </div></a>
+    <h1>{{ title | upper }}</h1>
+    <nav>
+        <ul>
+            <a href="">
+                <li>Lien 1</li>
+            </a>
+            <a href="">
+                <li>Lien 2</li>
+            </a>
+            <a href="">
+                <li>Lien 3</li>
+            </a>
+        </ul>
+    </nav>
+</header>

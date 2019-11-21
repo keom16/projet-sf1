@@ -1,0 +1,174 @@
+body{
+    margin :0;
+    box-sizing: border-box;
+    background-image: url("../img/cover.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.fluid{
+    width:100%;
+    margin: 0 auto;
+}
+
+header{
+    heigth : 100px;
+    background-color: #565656;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    color: #5eb5e0;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+ul{
+    padding:0;
+    margin: 0;
+}
+
+.logo{
+    max-height: 100px;
+    box-shadow: 3px -2px 6px black;
+}
+
+nav a{
+    display: inline-block;
+    margin : 0 70px;
+    text-decoration: none;
+    color: white;
+    padding: 41px;
+}
+
+nav a:hover{
+    background-color: #5eb5e0;
+}
+
+.insight{
+    height: 200px;
+}
+
+.blog{
+    width:80%;
+    margin:0 auto;
+    background-color: rgba(56, 56, 56, 0.8  );
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.preview{
+    box-sizing: border-box;
+    min-height: 380px;
+    width: 33%;
+    background-color: #C9C9C9;
+    padding : 25px;
+    margin : 50px 0;
+}
+
+.show{
+    width: 80%;
+    margin: 50px auto;
+    background-color: #C9C9C9;
+    padding : 25px;
+}
+
+h2{
+    text-align: center;
+    margin : 0;
+}
+
+.button{
+    display: block;
+    text-align: center;
+    width : 40%;
+    background-color: #999999;
+    margin: 20px auto;
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #BBBBBB;
+}
+
+.imgw{
+    margin : 10px 0px;
+}
+
+.insight{
+    position: relative;
+}
+
+h3{
+    color:white;
+    font-size : 24px;
+    position: absolute;
+    top :50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.imgfull{
+    max-height: 400px;
+    overflow: hidden;
+}
+
+footer{
+    height: 80px;
+    background-color: #565656;
+    margin-top: 50px;
+}
+
+.fluids{
+    width:100%;
+    margin:auto;
+}
+
+aside{
+    flex : 2;
+    background-color: #5eb5e0;
+    margin-left: 40px;
+    padding: 20px;
+    color:white;
+}
+
+main{
+    flex:10;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    color: white;
+    width: 70%;
+}
+
+.buttonA{
+    display: block;
+    text-align: center;
+    width : 60%;
+    background-color: #9ff8F0e0;
+    margin: 20px auto;
+    padding: 10px;
+    color:darkblue;
+    text-decoration: none;
+}
+
+.buttonA:hover{
+    background-color: #9aa8a0e0;
+    color: white;
+}

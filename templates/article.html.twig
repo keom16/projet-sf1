@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+
+{% block content %}
+<section class="insight">
+    <h3>{{ article.title }}</h3>
+</section>
+<main>
+    <section class="blog">
+            <article class="show">
+                <div class="imgfull">
+                    <img src="{{ asset(article.img) }}" alt="" class="fluids">
+                </div>
+                <p>{{ article.content }} </p>
+                <a href="{{ path('article_list')}}" class="button">Revenir à la liste des articles</a>
+            </article>
+    </section>
+    <aside>
+        <h2>Aside</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta doloremque doloribus explicabo facere id
+            incidunt ipsum laboriosam minus neque numquam obcaecati, odio perspiciatis, sequi similique ullam veritatis
+            voluptas, voluptatibus.</p>
+        <p>Aliquid amet at blanditiis earum est et id impedit ipsum iure laboriosam libero minus modi neque, nisi non
+            perspiciatis quia repudiandae sequi tempore unde? Alias doloremque esse minus nobis sit.</p>
+        <p>A accusantium aliquid aperiam autem, cumque delectus deleniti dolorum eligendi enim et expedita facilis fuga
+            illo illum minima neque nihil, nulla officia optio, perspiciatis provident repellendus sequi sint! Debitis,
+            sit!</p>
+        <a href="{{ path('article_list')}}" class="buttonA">En savoir plus</a>
+    </aside>
+</main>
+
+{% endblock %}
